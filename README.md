@@ -7,11 +7,18 @@ Start the JMeter GUI with:
 # JMeter plugin
 See: https://github.com/kulya/jmeter-gradle-plugin/wiki
 
-## Available tasks
-* jmeterCleanReport - Clean Jmeter Report
-* jmeterEditor - Start JMeter GUI
-* jmeterListTestPlan - List JMeter test plan
-* jmeterRun - Execute JMeter tests
+### Run JMeter test
+    gradlew jmeterRun
 
+At project directory
 
-```./gradlew  tasks```
+### Run JMeter GUI
+    gradlew jmeterEditor
+
+At project directory
+
+### Clean the reports
+    gradlew jmeterCleanReport
+
+### List all the testPlan
+    gradlew jmeterListTestPlan
